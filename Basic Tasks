@@ -1,0 +1,4 @@
+Rebooting Veeam services. 
+
+Get-Service Veeam* | Stop-Service
+Get-Service Veeam* | Start-Service
